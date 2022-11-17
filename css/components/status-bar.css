@@ -1,4 +1,6 @@
 .status-bar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 5px 3px;
@@ -9,13 +11,23 @@
 
 .status-bar__column:first-child span {
   margin-right: 5px;
+  margin-left: 3px;
 }
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
+.status-bar__column:nth-child(2) span {
+  font-weight: bold;
+}
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.status-bar__column:last-child span {
+  margin-right: 5px;
+}
+.status-bar__column:last-child i {
+  margin-right: 5px;
 }
