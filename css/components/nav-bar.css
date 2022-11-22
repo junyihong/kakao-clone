@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 50px;
+  padding: 15px 50px 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -21,16 +21,17 @@
 .nav__notification {
   position: absolute;
   background-color: tomato;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 600;
-  top: 5px;
-  left: 255px;
+  font-size: 5px;
+  font-weight: 300;
+  bottom: 13px;
+  left: 11px;
 }
 .ellipsis__noti {
   background-color: tomato;
@@ -41,5 +42,5 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 1px;
+  left: 18px;
 }
