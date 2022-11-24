@@ -20,16 +20,6 @@
 }
 .nav__notification {
   position: absolute;
-  background-color: tomato;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 5px;
-  font-weight: 300;
   bottom: 13px;
   left: 11px;
 }
@@ -42,5 +32,6 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 18px;
+  left: 22px;
+  bottom: 18px;
 }
