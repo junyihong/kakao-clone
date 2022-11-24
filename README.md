@@ -1,3 +1,3 @@
 #Kokoa Clone / Kakaotalk clone
 
-Html & CSS got so much better~!
+These files are based on Html & CSS.
