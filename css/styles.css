@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap");
 @import "reset.css";
 @import "variables.css";
+
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -8,6 +9,9 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
 /* Screen */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -15,6 +19,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/start.css";
+@import "screens/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
