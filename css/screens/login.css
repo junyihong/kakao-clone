@@ -28,6 +28,7 @@
   margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]) {
+    background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
